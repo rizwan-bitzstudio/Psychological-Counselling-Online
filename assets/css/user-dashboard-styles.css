@@ -1,4 +1,11 @@
+body{
+    background-color: #F7F9FF;
+}
+.dashboard-sidebar{
+    box-shadow: 8px 4px 16px 0px #00000014;
+}
 .sidebar{
+    height: 100vh;
     padding: 20px;
 }
 .sidebar-header{
@@ -18,4 +25,12 @@
 .sidebar .nav-link span.nav-title{
     font-weight: 500;
     line-height: 24px;
+}
+.search-icon{
+    color: #8C8C8C;
+    background-color: transparent;
+}
+.form-control
+{
+    box-shadow: none !important;
 }
