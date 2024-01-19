@@ -11,7 +11,8 @@
 </head>
 <body>
     <div class="user-dashboard d-flex">
-        <section class="dashboard-sidebar d-lg-block d-none" style="width: 298px;">
+        <!-- Sidebar -->
+        <section class="dashboard-sidebar __shadow d-lg-block d-none" style="width: 298px;">
             <div class="sidebar d-flex flex-column flex-shrink-0 bg-light">
                 <div class="sidebar-header">
                     <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
@@ -46,8 +47,10 @@
                 </ul>
               </div>
         </section>
+        <!-- Main -->
         <section class="container-fluid g-0">
-            <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white">
+            <!-- Header -->
+            <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white light-shadow">
                 <!-- Container wrapper -->
                 <div class="container-fluid justify-content-start">
                   <!-- Toggle button -->
@@ -56,7 +59,7 @@
                   </button>
             
                   <!-- Brand -->
-                  <h6 class="mb-0 ms-2 me-2 me-md-5">Dashboard</h6>
+                  <h6 class="mb-0 ms-2 me-2  me-md-3 me-lg-5">Dashboard</h6>
                   <!-- Search form -->
                   <form class="d-none d-md-flex w-auto my-auto border rounded px-lg-4 px-2">
                     <span class="input-group-text border-0 search-icon p-0"><i class="fas fa-search" aria-hidden="true"></i></span>
@@ -95,7 +98,169 @@
                   </ul>
                 </div>
                 <!-- Container wrapper -->
-              </nav>
+            </nav>
+            <!-- Header Close -->
+            <div class="page mx-auto px-lg-4 px-3">
+                <div class="top-banner dashboard-margin dashboard-padding d-flex gap-4 flex-column flex-sm-row justify-content-between align-items-center bg-white __shadow">
+                    <div class="heading-box">
+                        <h2 class="fw-bold"><span class="brand-color">Nice To Have</span> You In Here</h2>
+                        <p class="heading-description color-grey mt-2 mt-md-3  mb-0">‘’My mind is calm,my spirit is serene and i feel in harmony’’ </p>
+                    </div>
+                    <div class="banner-img">
+                        <img src="/assets/img/Psychologist-amico.png" alt="Psychologist Amico">
+                    </div>
+                </div>
+                <div id="RecommendedForYou" class=" dashboard-margin" >
+                    <div class="heading mb-4">
+                        <h2 class="fw-bold">Recommended For You</h2>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="our-videos brand-shadow">
+                                <div class="video-player position-relative">
+                                    <div class="video-category brand-bg-lightgreen position-absolute d-inline-block rounded-pill px-2 py-1">
+                                        <p class="category-name fw-bold m-0 color-dark">Exercise</p>
+                                    </div>
+                                    <img src="/assets/img/video-sessions.png" alt="" class="video-poster">
+                                    <div class="play-btn-icon position-absolute top-50 start-50 translate-middle">
+                                        <img src="/assets/img/play-btn.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="video-details mt-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="video-title fw-bold mb-0 me-2">Abdominal Breathing</h5>
+                                    <p class="video-time m-0 fw-bold color-grey">2 min video</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="our-videos brand-shadow">
+                                <div class="video-player position-relative">
+                                    <div class="video-category brand-bg-lightgreen position-absolute d-inline-block rounded-pill px-2 py-1">
+                                        <p class="category-name fw-bold m-0 color-dark">Exercise</p>
+                                    </div>
+                                    <img src="/assets/img/video-sessions.png" alt="" class="video-poster">
+                                    <div class="play-btn-icon position-absolute top-50 start-50 translate-middle">
+                                        <img src="/assets/img/play-btn.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="video-details mt-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="video-title fw-bold mb-0 me-2">Abdominal Breathing</h5>
+                                    <p class="video-time m-0 fw-bold color-grey">2 min video</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="our-videos brand-shadow">
+                                <div class="video-player position-relative">
+                                    <div class="video-category brand-bg-lightgreen position-absolute d-inline-block rounded-pill px-2 py-1">
+                                        <p class="category-name fw-bold m-0 color-dark">Exercise</p>
+                                    </div>
+                                    <img src="/assets/img/video-sessions.png" alt="" class="video-poster">
+                                    <div class="play-btn-icon position-absolute top-50 start-50 translate-middle">
+                                        <img src="/assets/img/play-btn.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="video-details mt-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="video-title fw-bold mb-0 me-2">Abdominal Breathing</h5>
+                                    <p class="video-time m-0 fw-bold color-grey">2 min video</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="our-videos brand-shadow">
+                                <div class="video-player position-relative">
+                                    <div class="video-category brand-bg-lightgreen position-absolute d-inline-block rounded-pill px-2 py-1">
+                                        <p class="category-name fw-bold m-0 color-dark">Exercise</p>
+                                    </div>
+                                    <img src="/assets/img/video-sessions.png" alt="" class="video-poster">
+                                    <div class="play-btn-icon position-absolute top-50 start-50 translate-middle">
+                                        <img src="/assets/img/play-btn.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="video-details mt-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="video-title fw-bold mb-0 me-2">Abdominal Breathing</h5>
+                                    <p class="video-time m-0 fw-bold color-grey">2 min video</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="our-videos brand-shadow">
+                                <div class="video-player position-relative">
+                                    <div class="video-category brand-bg-lightgreen position-absolute d-inline-block rounded-pill px-2 py-1">
+                                        <p class="category-name fw-bold m-0 color-dark">Exercise</p>
+                                    </div>
+                                    <img src="/assets/img/video-sessions.png" alt="" class="video-poster">
+                                    <div class="play-btn-icon position-absolute top-50 start-50 translate-middle">
+                                        <img src="/assets/img/play-btn.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="video-details mt-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="video-title fw-bold mb-0 me-2">Abdominal Breathing</h5>
+                                    <p class="video-time m-0 fw-bold color-grey">2 min video</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 ">
+                            <div class="our-videos brand-shadow">
+                                <div class="video-player position-relative">
+                                    <div class="video-category brand-bg-lightgreen position-absolute d-inline-block rounded-pill px-2 py-1">
+                                        <p class="category-name fw-bold m-0 color-dark">Exercise</p>
+                                    </div>
+                                    <img src="/assets/img/video-sessions.png" alt="" class="video-poster">
+                                    <div class="play-btn-icon position-absolute top-50 start-50 translate-middle">
+                                        <img src="/assets/img/play-btn.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="video-details mt-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="video-title fw-bold mb-0 me-2">Abdominal Breathing</h5>
+                                    <p class="video-time m-0 fw-bold color-grey">2 min video</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination mt-4">
+                        <div class="showing-items-wrapper">
+                            <p m-0>Show 
+                                <span class="total-pages">
+                                    <select name="pagi">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </span> 
+                                entries <span class="color-gray-2 ms-3">1 to 10 of 430 entries</span></p>
+                        </div>
+                        <div class="pagination-numbers bg-white p-2">
+                            <ul class="pagination-items">
+                                <li class="prev"></li>
+                                <li class="next"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="FindYourPsycologist" class="dashboard-padding dashboard-margin bg-white __shadow" >
+                    <div class="heading mb-4">
+                        <h2 class="fw-bold">Find Your Psycologist</h2>
+                    </div>
+                    <div class="row gy-2">
+                        <div class="col-md-4 col-sm-6 text-center text-sm-start">
+                            <img src="/assets/img/dr-riha.png" alt="" class="dr-img rounded">
+                            <h5 class="dr-name mt-2 mt-md-3">Dr.Riha</h5>
+                        </div>
+                        <div class="col-md-4 col-sm-6 text-center text-sm-start">
+                            <img src="/assets/img/dr-riha.png" alt="" class="dr-img rounded">
+                            <h5 class="dr-name mt-2 mt-md-3">Dr.Riha</h5>
+                        </div>
+                        <div class="col-md-4 col-sm-6 text-center text-sm-start">
+                            <img src="/assets/img/dr-riha.png" alt="" class="dr-img rounded">
+                            <h5 class="dr-name mt-2 mt-md-3">Dr.Riha</h5>
+                        </div>
+                    </div>
+                    <div class="find-btn text-center mt-4">
+                        <button class="mt-md-2 btn-style-2"><a href="#" class="text-decoration-none"><h2>Find Your Online Psychologist</h2></a></button>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </body>
