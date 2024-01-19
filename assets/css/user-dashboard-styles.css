@@ -1,0 +1,21 @@
+.sidebar{
+    padding: 20px;
+}
+.sidebar-header{
+    margin-bottom: 32px;
+}
+.sidebar .nav-link{
+    color: #1E1B1B;
+}
+.sidebar .nav-link:hover{
+    color: #fff;
+    background-color: #7EBC89;
+}
+.sidebar .nav-link.active{
+    color: #fff;
+    background-color: #7EBC89;
+}
+.sidebar .nav-link span.nav-title{
+    font-weight: 500;
+    line-height: 24px;
+}

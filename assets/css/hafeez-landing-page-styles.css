@@ -1,0 +1,464 @@
+.login{
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #7EBC89;
+    border: none;
+    padding: 20px;
+}
+a.nav-link {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #474040;
+}
+a.nav-link.active {
+    color: #7EBC89 !important;
+    font-weight: 700;
+}
+a.nav-link:hover {
+    color: #7EBC89;
+}
+a.nav-link:focus {
+    color: #474040;
+}
+.hero-h3{
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+}
+
+p.hero-p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #F8F8F8;
+    margin: 28px 0px 40px 0px;
+    width: 955px;
+    font-family: 'Poppins', sans-serif;
+}
+button.hero-btn {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 16px 32px;
+    background-color: #7EBC89;
+    color: #fff;
+    border: none;
+}
+.hero-section{
+    padding: 157px 0px 237px 0px;
+}
+h4.subhdngs {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #1E1B1B;
+    font-family: 'DM Sans', sans-serif;
+}
+
+span.sunhdng-spn {
+    color: #7EBC89;
+}
+.paragraph{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #554C4C;
+    margin: 28px 0px 40px 0px;
+}
+img.right-img {
+    position: relative;
+    left: -60px;
+    bottom: 160px;
+}
+#CounsellingServices{
+    background-color: #F2F2F2;
+}
+#CounsellingServices div.blob-top{
+    background-image: url(/assets/img/blob-top.png);
+    background-repeat: no-repeat;
+    width: 16em;
+    height: 10em;
+}
+#CounsellingServices div.blob-bottom{
+    background-image: url(/assets/img/blob-bottom.png);
+    background-repeat: no-repeat;
+    width: 4em;
+    height: 7em;
+}
+.card-icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    padding-bottom: 50px;
+}
+h4.card-title {
+    margin: 0px 20px;
+}
+
+  .card {
+    width: 100%;
+    box-shadow: 0px 0px 16px 2px rgba(0,0,0, 0.1);
+    border-radius: 12px;
+    padding: 60px 20px 20px 20px;
+    background-color: #fff;
+}
+h4.card-title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #1E1B1B;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+a.card-link {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #7EBC89;
+    font-family: 'DM Sans', sans-serif;
+}
+ul.navbar-nav {
+    margin: 0 auto;
+}
+.row.thrd-section {
+        background-image: url("../img/Frame12.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .hero-section{
+        background-image: url("../img/img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+           
+        }
+        .forth-section{
+        background-image: url("../img/Vectord.png");
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        }
+       
+          .card1 {
+    width: 100%;
+    box-shadow: 0px 0px 16px 2px rgba(0,0,0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fff;
+}
+.fifth-section {
+        background-image: url("../img/Frame19.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .img-crd-ttl {
+    margin: 10px 0 0 0 !important;
+}
+.card-text {
+    margin: 10px 0px !important;
+}
+.red-mor-icn::after {
+    content: url(assets/img/Vectort.svg);
+    margin-left: 10px;
+}
+svg.svg-icon {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4.tstimonl-text {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #554C4C;
+    font-family: 'Poppins', sans-serif;
+}
+.testimonail-content {
+    padding: 20px 20px 60px;
+}
+.slick-current .testimonail-content {
+    background-color: #7EBC89;
+}
+.slick-current .tstimonl-text {
+    color: #fff;
+}
+.slick-current path {
+    fill: #fff;
+}
+.slick-current.card2{
+     opacity: unset !important;
+}
+h4.testimonial-name {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #1E1B1B;
+    font-family: 'DM Sans', sans-serif;
+}
+.testimonial-designation{
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #554C4C;
+    font-family: 'DM Sans', sans-serif;
+}
+.avatar img {
+    margin: auto;
+    margin-top: -40px;
+}
+/* Add your existing CSS styles here */
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+.card2{
+    margin: 0px 20px;
+    opacity: 0.7;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card1 {
+  width: 100%; /* Adjust based on your design */
+  margin-right: 20px; /* Adjust based on your design */
+}
+
+.slider-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slider-dots .dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #333; /* Adjust the color based on your design */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.arrow {
+  font-size: 24px;
+  cursor: pointer;
+}
+.secnd-sectn-img{
+    max-width: 100%;
+}
+a.card-link {
+    text-decoration: none;
+}
+.card {
+    border-radius: 12px !important;
+}
+#CustomerReviews div.blob-top-green{
+    background-image: url(/assets/img/blob-top-green.png);
+    width: 7em;
+    height: 17em;
+}
+#CustomerReviews div.blob-bottom-gray{
+    background-image: url(/assets/img/blob-bottom-gray.png);
+    width: 10.1em;
+    height: 23em;
+}
+#CustomerReviews .slick-dots li button:before{
+    font-size: 17px;
+}
+#CustomerReviews .slick-dots li.slick-active button:before{
+    color:#7EBC89;
+}
+#CustomerReviews li.slick-active {
+    width: 40px;
+    height: 16px;
+    background: #7EBC89;
+    border-radius: 50em;
+}
+#CounsellingTopics{
+    background-color:#F2F2F2;
+}
+#CounsellingTopics div.vertical-dots-pattern{
+    background-image: url(/assets/img/vertical-dots-pattern.png);
+    background-repeat: no-repeat;
+    width: 3em;
+    height: 10em;
+}
+#CounsellingTopics div.vertical-dots-pattern.top-dots{
+    top:3em; 
+    right: 0;
+}
+#CounsellingTopics div.vertical-dots-pattern.bottom-dots{
+    bottom: 5em; 
+    left: 0;
+}
+@media only screen and (max-width: 1024px) and (min-width:769px) {
+ 
+    h3.hero-h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    p.hero-p {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto !important;
+    }
+    .hero-section{
+        padding: 100px 0px;
+    }
+    img.right-img {
+        position: relative;
+        left: 0px;
+        bottom: 50px;
+        
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .secnd-sectn-img{
+        width: auto !important;
+        height: auto !important;
+        margin-top: 20px;
+    }
+    h4.subhdngs {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    p.paragraph {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 20px 0px 40px 0px;
+    }
+    button.hero-btn {
+        font-size: 20px;
+        line-height: 25px;
+        padding: 10px 20px;
+    }
+    .secnd-sectn-dv {
+        text-align: center;
+    }
+    h4.card-title {font-size: 20px;line-height: 25px;}
+
+    .card {
+        margin: 20px 0;
+        border-radius: 12px !important;
+    }
+    .row.thrd-section {
+        margin: 0;
+    }
+    img.fifth-sctn-img {
+        margin-bottom: 20px;
+    }
+    .card1 {
+        margin: 20px 0px;
+    }
+    .second-section .row{
+        margin: 0 !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+ 
+    h3.hero-h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    p.hero-p {
+        font-size: 15px;
+        line-height: 20px;
+        width: auto !important;
+    }
+    .hero-section{
+        padding: 50px 0;
+    }
+    img.right-img {
+        position: relative;
+        left: 0px;
+        bottom: 50px;
+        
+        width: 100px !important;
+        height: 100px !important;
+    }
+    /*.second-section {
+        padding: 20px 0px !IMPORTANT;
+    }*/
+    .secnd-sectn-img{
+        width: auto !important;
+        height: auto !important;
+    /*  width: 320px !important;
+        height: 320px !important;*/
+        margin-top: 20px;
+    }
+    h4.subhdngs {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    p.paragraph {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 10px 0px 20px 0px;
+    }
+    button.hero-btn {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 10px 20px;
+    }
+    .secnd-sectn-dv {
+        text-align: center;
+    }
+    h4.card-title {font-size: 20px;line-height: 25px;}
+
+    .card {
+        margin: 20px 0;
+        border-radius: 12px !important;
+    }
+    .row.thrd-section {
+        margin: 0;
+    }
+    img.fifth-sctn-img {
+        margin-bottom: 20px;
+    }
+    .card1 {
+        margin: 10px 0px;
+    }
+    .second-section .row{
+        margin: 0 !important;
+    }
+    #CounsellingTopics div.vertical-dots-pattern.top-dots{
+        top:6em; 
+        right: 0;
+    }
+    #CustomerReviews .slick-dots li button:before{
+        font-size: 13px;
+    }
+    #CustomerReviews li.slick-active {
+        width: 35px;
+        height: 14px;
+    }
+}
