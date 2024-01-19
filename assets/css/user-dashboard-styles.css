@@ -34,3 +34,8 @@ body{
 {
     box-shadow: none !important;
 }
+@media screen and (min-width:992px) {
+    .search-input-field{
+        width: 345px;
+    }
+}
